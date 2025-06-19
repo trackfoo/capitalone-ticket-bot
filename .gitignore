@@ -1,0 +1,13 @@
+# Python cache and virtualenvs
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets and logs
+auth.json
+alerts.log
+state.json
+
+# macOS system files
+.DS_Store
