@@ -1,11 +1,12 @@
+import os
+os.environ["PLAYWRIGHT_BROWSERS_PATH"] = "/tmp/pw-browsers"
+
 from playwright.sync_api import sync_playwright
 import json, time
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-import os
 
-os.environ["PLAYWRIGHT_BROWSERS_PATH"] = "/tmp/pw-browsers"
 
 # 🔧 Email Config (replace these)
 SMTP_SERVER = "smtp.gmail.com"
